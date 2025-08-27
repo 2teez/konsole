@@ -1,3 +1,4 @@
+#![allow(unused, dead_code)]
 //! konsole Library for reading from the stdin
 //! A rust-native version of java utility
 //!
