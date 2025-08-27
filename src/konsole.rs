@@ -30,9 +30,9 @@ pub fn _read_line<R: Read + BufRead>(msg: &str, mut reader: R) -> String {
 }
 
 // TODO
-/*pub fn read_passowrd(msg: &str) -> Vec<char> {
-
-}*/
+pub fn read_passowrd(msg: &str) -> Vec<char> {
+    todo!("to be implemented not using external lib")
+}
 
 #[cfg(test)]
 mod unittest;
